@@ -7,7 +7,7 @@ const ViteLogo = () => {
       <svg
         width="50px"
         height="50px"
-        viewBox="0 -10 250 370"
+        viewBox="0 -50 250 370"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -62,4 +62,11 @@ background-color: transparent;
 padding: 10px 0 10px 10px;
 display: flex;
 align-items: center;
+@media (max-width: 300px) {
+  left: unset;
+  svg{
+    width: 40px;
+    height: 40px;
+  }
+}
 `
