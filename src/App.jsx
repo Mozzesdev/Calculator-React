@@ -527,7 +527,7 @@ const GlobalContainer = styled.div`
   justify-content: center;
   position: relative;
   @media (max-width: 330px) {
-    padding: 0 14px;
+    padding: 0 15px;
   }
   @media (max-width: 250px) {
     padding: 0 9px;
